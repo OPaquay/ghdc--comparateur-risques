@@ -1,0 +1,68 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #444444;
+  font-weight: 400;
+  min-height: 100%;
+  height: auto;
+}
+
+label, p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+form.search-form button {
+  margin-top: 24px;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.md-datepicker-input-mask {
+  overflow: hidden;
+}
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+}
+
+h1 {
+  text-align: center;
+  font-size: 31px;
+  line-height: 145px;
+  vertical-align: middle;
+  margin: 0px;
+  color: #00529B;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.group-content {
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.group-content.patients-selected {
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 21px;
+}

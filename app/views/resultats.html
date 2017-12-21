@@ -1,0 +1,6 @@
+<a href="#!/" class="btn btn-default">Retour</a>
+<div class="row">
+  <div class="col-md-6" ng-repeat="patient in selectedPatients track by $index" on-finish-render="ngRepeatFinished">
+    <canvas id="chart-{{$index}}"></canvas>
+  </div>
+</div>

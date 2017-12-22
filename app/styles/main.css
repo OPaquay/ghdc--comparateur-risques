@@ -36,13 +36,14 @@ form.search-form button {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 31px;
   line-height: 145px;
   vertical-align: middle;
   margin: 0px;
   color: #00529B;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 h2 {

@@ -100,7 +100,7 @@ angular.module('comparateurRisquesApp')
         var patientDataFormatted = $scope.prepareData(collectData(patient));
 
         var data = {
-          label: patient.admin.prenom + ' ' + patient.admin.nom,
+          label: patient.admin.prenom + ' ' + patient.admin.nom + ' (' + patient.admin.Genre.substring(0, 1) + ')',
           backgroundColor: chartColors[index],
           borderColor: chartColors[index],
           data: [patientDataFormatted.age, patientDataFormatted.bmi, patientDataFormatted.hba1c, patientDataFormatted.cholesterol_total, patientDataFormatted.cholesterol_hdl, patientDataFormatted.pression_sanguine, patientDataFormatted.consommation_tabagique],
@@ -125,6 +125,11 @@ angular.module('comparateurRisquesApp')
 
         // Configuration options go here
         options: {
+          legend: {
+            labels: {
+              fontSize: 16
+            }
+          },
           scales: {
             xAxes: [{
               ticks: {

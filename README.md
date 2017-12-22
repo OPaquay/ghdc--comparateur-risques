@@ -32,4 +32,4 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Deploy and use
 
 1. Copy 'dist' folder on a web server
-2. Open index.html in a web browser
+2. Open a web browser and navigate to your dist folder

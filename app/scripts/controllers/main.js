@@ -35,7 +35,6 @@ angular.module('comparateurRisquesApp')
         $scope.searchForm.birthDate.$setValidity('valid', true);
       }
       if($scope.searchForm.$valid) {
-        console.log('valid form');
         // Return an array of the corresponding patient(s)
         $scope.searchResult = patients.filter(function(o){
           var birthDate = new Date(o.admin['date_de _naissance']);

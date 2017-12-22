@@ -4,7 +4,7 @@
   <div class="col-md-12">
     <form name="searchForm" class="search-form" id="searchForm" ng-submit="searchPatient()" novalidate>
       <div class="row">
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-3 col-sm-6">
           <label for="firstName">Prénom</label>
           <input type="text" id="firstName" name="firstName" class="form-control" ng-model="searchInput.firstName" required />
           <div ng-if="searchForm.$submitted || searchForm.firstName.$dirty" ng-messages="searchForm.firstName.$error">
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-3 col-sm-6">
           <label for="lastName">Nom</label>
           <input type="text" id="lastName" name="lastName" class="form-control" ng-model="searchInput.lastName" required />
           <div ng-if="searchForm.$submitted || searchForm.lastName.$dirty" ng-messages="searchForm.lastName.$error">
@@ -22,11 +22,11 @@
             </div>
           </div>
         </div>
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-3 col-sm-6">
           <label for="birthDate">Date de naissance</label>
           <md-datepicker name="birthDate" id="birthDate" ng-model="searchInput.birthDate" md-min-date="minBirthDate" md-max-date="maxBirthDate" ng-required="false"></md-datepicker>
         </div>
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-3 col-sm-12">
           <button class="btn btn-primary" type="submit">Rechercher</button>
         </div>
       </div>

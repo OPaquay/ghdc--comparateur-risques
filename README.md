@@ -8,19 +8,20 @@ version 0.16.0.
 Make sure that [Node.js and npm](https://nodejs.org/en/) are installed on your computer
 You also need [Git](https://git-scm.com/)
 
-Install Bower
-  $ npm install -g bower
-Install Grunt CLI
-  $ npm install -g grunt-cli
-Install all npm packages listed in packages.JSON
-  $ npm install
-Install all bower packages listed in bower.JSON
-  $ bower install
+1. Install Bower
+    $ npm install -g bower
+2. Install Grunt CLI
+    $ npm install -g grunt-cli
+3. Install all npm packages listed in packages.JSON
+    $ npm install
+4. Install all bower packages listed in bower.JSON
+    $ bower install
 
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
+## Deploy and use
 
-Running `grunt test` will run the unit tests with karma.
+1. Copy 'dist' folder on a web server
+2. Open index.html in a web browser

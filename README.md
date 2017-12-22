@@ -16,13 +16,9 @@ You also need [Git](https://git-scm.com/)
 ```
     $ npm install -g grunt-cli
 ```
-3. Install all npm packages listed in packages.JSON
+3. Install all npm and bower packages listed in packages.json and bower.json
 ```
     $ npm install
-```
-4. Install all bower packages listed in bower.JSON
-```
-    $ bower install
 ```
 
 ## Build & development

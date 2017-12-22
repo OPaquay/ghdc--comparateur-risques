@@ -1,6 +1,6 @@
-<a href="#!/" class="btn btn-default">Retour</a>
+<a href="#!/" class="back-button btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span> Modifier les patients sélectionnés</a>
 <div class="row">
-  <div class="col-md-6" ng-repeat="patient in selectedPatients track by $index" on-finish-render="ngRepeatFinished">
-    <canvas id="chart-{{$index}}"></canvas>
+  <div class="col-md-12">
+    <canvas id="chart"></canvas>
   </div>
 </div>

@@ -13,7 +13,7 @@ angular.module('comparateurRisquesApp')
     if(patients === undefined){
       var patients = [];
       // Get patients data from JSON file
-      $http.get('../data/MOCK_DATA.JSON').then(function(data){
+      $http.get('data/MOCK_DATA.JSON').then(function(data){
         patients = data.data;
       });
     }

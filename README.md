@@ -9,13 +9,21 @@ Make sure that [Node.js and npm](https://nodejs.org/en/) are installed on your c
 You also need [Git](https://git-scm.com/)
 
 1. Install Bower
+```
     $ npm install -g bower
+```
 2. Install Grunt CLI
+```
     $ npm install -g grunt-cli
+```
 3. Install all npm packages listed in packages.JSON
+```
     $ npm install
+```
 4. Install all bower packages listed in bower.JSON
+```
     $ bower install
+```
 
 ## Build & development
 
